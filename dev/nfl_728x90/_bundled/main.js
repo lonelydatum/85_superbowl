@@ -68,14 +68,15 @@ function start_landscape(barOptions, barOptions2) {
 function start(barOptions, barOptions2) {
 	var vh = arguments.length <= 2 || arguments[2] === undefined ? { x: -size.w } : arguments[2];
 
-	console.log('sldkfj');
 	var tl = init();
+	tl.from('.playa', { x: "+=150", y: "+=100", scale: "-=.3", duration: .4, ease: "power3.out" });
 	tl.add("start");
 	// const barTL = barOptions.verHor==="h" ? animate_bars_vertical(barOptions, false) : animate_bars_horizontal(barOptions)
 
 	// tl.add(barTL, "start")	
-	tl.from('.t1', stag(vh), "start+=.3");
-	tl.to([".hero", ".t1", "#bars", ".logos"], { duration: .3, opacity: 0 }, "+=" + READ.t1);
+
+	tl.from('.t1', stag(vh), "start");
+	tl.to([".hero", ".playa", ".bars", ".t1", "#bars", ".logos"], { duration: .3, opacity: 0 }, "+=" + READ.t1);
 
 	var barTL2 = barOptions2.verHor === "h" ? animate_bars_vertical(barOptions2) : animate_bars_horizontal(barOptions2);
 	tl.add(barTL2, "end");

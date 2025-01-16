@@ -310,4 +310,11 @@ canvas, .text, .frame, .outline, img {
   left: -275px;
 }
 
+.playa {
+  z-index: 11;
+  -webkit-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+}
+
 /*# sourceMappingURL=main.css.map */

@@ -275,6 +275,10 @@ canvas, .text, .frame, .outline, img {
   position: absolute;
 }
 
+.playa {
+  z-index: 11;
+}
+
 #bars {
   -webkit-transform: translate(0px, 130px);
   -ms-transform: translate(0px, 130px);
