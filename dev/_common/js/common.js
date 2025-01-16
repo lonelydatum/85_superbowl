@@ -9,7 +9,7 @@ gsap.defaults({
 const {w, h} = size
 
 const READ = {
-	t1: 2.7,
+	t1: 2.5,
 	t2: 1.7,
 	t3: 2.1,
 }

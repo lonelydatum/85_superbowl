@@ -20,7 +20,7 @@ var w = size.w;
 var h = size.h;
 
 var READ = {
-	t1: 2.7,
+	t1: 2.5,
 	t2: 1.7,
 	t3: 2.1
 };
