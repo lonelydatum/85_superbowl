@@ -97,7 +97,7 @@ function animate_bars_horizontal(barOptions){
 	for(let i=0;i<TOTAL;i++){
 		const barItem = document.createElement("div")
 		const height = HEIGHT-(i * GAP)		
-		console.log(i, colors[i]);
+		
 		TweenLite.set(barItem, {
 			transformOrigin:"0% 100%",
 			className: `bar bar_${i}`,

@@ -313,4 +313,9 @@ canvas, .text, .frame, .outline, img {
   left: -51px;
 }
 
+.t1 {
+  -webkit-filter: none;
+  filter: none;
+}
+
 /*# sourceMappingURL=main.css.map */
